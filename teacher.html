@@ -1,0 +1,97 @@
+<!Doctype html>
+<html>
+<head>
+<title>You are a Teacher</title>
+<script src="teacher.js"></script>
+</head>
+<body>
+<div id="heading" >
+<br><br>
+<a href="index (1).html">
+<image id="head" src="whatsApp.jpg" >
+</a>
+<div>
+<br><br>
+  <link rel="stylesheet" href="teacher.css">
+
+  <div class="container">
+    <img src="teacher1.jpg" alt="picture" class="img1">
+    <div class="centered"><h1>Teachers please fill this form</h1></div>
+  </div>
+
+<h3 class="info">Marked with * are necessary to Fill</h3>
+<form class="teacher">
+<label for="name">Enter your First Name*</label>
+<input type="text" onblur="intest1();" id="name" placeholder="Enter your First Name" required>
+<p id="pa1"></p>
+<br>
+<label for="lname">Enter your Last Name</label>
+<input type="text" id="lname" placeholder="Enter your Last Name" >
+<br>
+<br>
+<label for="mail">Enter your E-mail*</label>
+<input type="email" onblur="intest4();" id="mail" placeholder="Enter your E-mail" required>
+<p id="pa4"></p>
+<br>
+<label for="phone">Enter your Phone number*</label>
+<input type="number" onblur="intest2();" id="phone" placeholder="Enter your phone number" required>
+<p id="pa2"></p>
+<br>
+<label for="class">Enter your class</label>
+<input type="number" onblur="intest3();" id="class" placeholder="Enter your class" required>
+<p id="pa3"></p>
+<br>
+<label for="subject" class="sub">Which subjects you want to teach</label>
+<select name="subject" id="subject"  >
+  <option value="All">all</option>
+  <option value="physics">Physics</option>
+  <option value="Chemistry">Chemistry</option>
+  <option value="Math">Math</option>
+</select>
+<br>
+<br>
+<label for="fee">Fees*</label>
+<input type="number" onblur="intest5();"id="fee" placeholder="Fees" required>
+<p id="pa5"><p>
+<br>
+<label for="time">Enter your Suitable Timing</label>
+<input type="time" id="time" placeholder="Enter your suitable Timings">
+<br>
+<br>
+<label for="state">Enter your State:</label>
+<select name="State" id="state" form="state">
+  <option value="punjab">Punjab</option>
+</select>
+<br>
+<br>
+<label for="city">Enter your city:</label>
+<select name="city" id="city" form="city">
+  <option value="Barnala">Barnala</option>
+  <option value="Rajpura">Rajpura</option>
+  <option value="Sangrur">Sangrur</option>
+  <option value="Moga">Moga</option>
+  <option value="Amritsar">Amritsar</option>
+  <option value="Mansa">Mansa</option>
+  <option value="Abohar">Abohar</option>
+  <option value="Jalandhar">Jalandhar</option>
+  <option value="Mohali">Mohali</option>
+  <option value="Patiala">Patiala</option>
+  <option value="Fazilka">Fazilka</option>
+  <option value="Faridkot">Faridkot</option>
+  <option value="Muktsar">Muktsar</option>
+  <option value="Malout">Malout</option>
+  <option value="Pathankot">Pathankot</option>
+  <option value="Bathinda">Bathinda</option>
+  <option value="Ludhiana">ludhiana</option>
+  <option value="Zirakpur">Zirakpur</option>
+</select>
+<br>
+<br>
+<label for="area">Enter your Locality</label>
+<input type="area" id="area" placeholder="Enter your Locality">
+<br>
+<br>
+<input type="submit" value="Submit" id="submit" onsubmit="onsubmit()" onclick="alert('Your data have been saved in our server.Now students may contact you according to their wish.')">
+</form>
+</body>
+</html>

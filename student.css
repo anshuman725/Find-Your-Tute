@@ -1,0 +1,291 @@
+body {
+  background-color: #2b2b52;
+}
+.img2 {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+#heading
+{
+	height:200px;
+	width:100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -60%);
+}
+h1 {
+  text-align: center;
+  background-color: cornsilk;
+  margin-top: 40px;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 80%;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+  opacity: 80%;
+}
+#classroom1 {
+  height: auto;
+  width: 60%;
+  margin-left: 20%;
+}
+.info {
+  text-align: center;
+  background-color: ivory;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 20%;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+}
+.student {
+  text-align: center;
+  margin-top: 80px ;
+  margin-left:200px ;
+  margin-right: 200px;
+  margin-bottom: 30px;
+  background-color: ivory;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#name {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  text-align: left;
+  margin-left: 20em;
+  margin-top: 20px;
+
+  transition-duration: 0.4s;
+  cursor: text;
+}
+#lname {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: inline-start;
+  margin-left: 20em;
+
+  transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: text;
+}
+#dob {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: inline-start;
+  margin-left: 19em;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#mail {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: inline-start;
+  margin-left: 22em;
+
+  transition-duration: 0.4s;
+  cursor: text;
+}
+#phone {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: inline-start;
+  margin-left: 17em;
+
+  transition-duration: 0.4s;
+  cursor: text;
+}
+#class {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: inline-start;
+  margin-left: 23.5em;
+
+  transition-duration: 0.4s;
+  cursor: text;
+}
+#subject {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: inline-start;
+  margin-left: 20.5em;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#state {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: inline-start;
+  margin-left: 21.5em;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#city {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: inline-start;
+  margin-left: 22em;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#time {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: inline-start;
+  margin-left: 15.5em;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#submit {
+  background-color: rgb(1, 6, 82);
+  border-radius: 20px;
+  color: #ccc;
+  margin-bottom: 20px;
+  width: 10%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+#submit:hover {
+  background-color: floralwhite;
+  color: black;
+}
+#name:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 20px;
+}
+#lname:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 20px;
+}
+#dob:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 20px;
+}
+#mail:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 20px;
+}
+#phone:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 20px;
+}
+#class:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 20px;
+}
+#subject:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 20px;
+}
+#state:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 20px;
+}
+#city:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 20px;
+}
+#time:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 20px;
+}
+.submit_1{
+  background-color:orangered;
+  border-color: snow;
+  border-radius: 20px;
+  color:snow;
+  height:auto;
+  width: 20%;
+  height:50%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top:3px;
+  margin-left: 40%;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.submit_1:hover {
+  background-color: floralwhite;
+  color: black;
+  border-color: orangered;
+}
+.our{
+  background-color: lavender;
+  text-align: center;
+  margin-top: 10px;
+  height: auto;
+  width: 84%;
+  margin-left: 8%;
+
+}

@@ -1,0 +1,112 @@
+<!Doctype html>
+<html>
+<head>
+<title>You are a Student</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="student.css">
+<script src="student.js"></script>
+</head>
+<body id="b1" >
+<div id="heading" >
+<br><br>
+<a href="index (1).html">
+<image id="head" src="whatsApp.jpg" >
+</a>
+<div>
+<br><br>
+<div class="img2">
+  <img src="classroom.jpg" alt="picture">
+ 
+  <div class="centered"> <h1>Students Fill this Form:</h1></div>
+</div>
+
+<h3 class="info">Marked with * are necessary to Fill</h3>
+<div class="form1">
+
+<form class="student">
+
+<label for="name" >First Name*:</label>
+<input  class="in" onblur="intest1();" type="text" placeholder="Enter your First Name" id="name" required >
+<p id="pa1"></p>
+<br>
+<label for="lname">Last Name:</label>
+<input class="in" type="text" placeholder="Enter your Last Name" id="lname" >
+<br>
+<br>
+<label for="dob">Date of Birth:</label>
+<input class="in" type="date" placeholder="enter your Date of Birth" id="dob">
+<br>
+<br>
+<label for="mail">E-mail*:</label>
+<input class="in" type="email" onblur="intest4();" placeholder="enter your e-mail" id="mail" required>
+<p id="pa4"></p>
+<br>
+<label for="phone">Phone Number*:</label>
+<input class="in" type="number" onblur="intest2();" placeholder="enter your number" id="phone" required>
+<p id="pa2"></p><br>
+
+<label for="class">Class:*</label>
+<input class="in" type="number" min="10" max="12" onblur="intest3();" placeholder="enter your class" id="class" required>
+<p id="pa3"></p>
+<br>
+<label for="subject">Subject</label>
+<select class="in" name="subjects" id="subject"  form="subject" required>
+  <option value="phy.">Physics</option>
+  <option value="chem.">Chemistry</option>
+  <option value="math">Math</option>
+  <option value="math and chemistry">Math and Chemistry</option>
+  <option value="math and physics">Math and Physics</option>
+  <option value="physics and chemistry">Physics and Chemistry</option>
+  <option value="all">All</option>
+</select>
+<br>
+<br>
+<label for="state">State:</label>
+<select class="in" name="State" id="state" form="state">
+  <option value="punjab">Punjab</option>
+</select>
+<br>
+<br>
+<label for="city">City:</label>
+<select class="in"  name="city" id="city" form="city">
+  <option value="Barnala">Barnala</option>
+  <option value="Rajpura">Rajpura</option>
+  <option value="Sangrur">Sangrur</option>
+  <option value="Moga">Moga</option>
+  <option value="Amritsar">Amritsar</option>
+  <option value="Mansa">Mansa</option>
+  <option value="Abohar">Abohar</option>
+  <option value="Jalandhar">Jalandhar</option>
+  <option value="Mohali">Mohali</option>
+  <option value="Patiala">Patiala</option>
+  <option value="Fazilka">Fazilka</option>
+  <option value="Faridkot">Faridkot</option>
+  <option value="Muktsar">Muktsar</option>
+  <option value="Malout">Malout</option>
+  <option value="Pathankot">Pathankot</option>
+  <option value="Bathinda">Bathinda</option>
+  <option value="Ludhiana">Ludhiana</option>
+  <option value="Zirakpur">Zirakpur</option>
+</select>
+<br>
+<br>
+<label for="time">Convenient Timings:</label>
+<input class="in" type="time" placeholder="your Convenient timings" id="time">
+<br>
+<br>
+<input type="submit" value="Submit" id="submit" onsubmit="onsubmit()" onclick="alert('Your data have been saved in our server.Now click on check our teacher to find your ideal teacher.')">
+<br>
+</form>
+
+</div>
+
+  
+  <a href="our_teachers.html"><button  class="submit_1" >Check Our Teachers!</button></a>
+  
+
+
+
+
+
+</body>
+</html>

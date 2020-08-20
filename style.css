@@ -1,0 +1,97 @@
+#student
+{
+	background-color:yellow;
+	float:left;
+	width:50%;
+	height:400px;
+}
+.btn
+{
+	border-radius:20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	transition-duration: 0.3s;
+	cursor: pointer;
+	margin-top:20px;
+	border-style: solid;
+	border-color: #2B2B52;
+	
+}
+.btn:hover{
+	background-color:#2B2B52;
+	color:ivory;
+	border: azure;
+	border-style: solid;
+}
+
+#studentb
+{
+	text-align:center;
+	background-color:yellow;
+	float:left;
+	width:50%;
+	height:70px;
+	
+}
+#teacherb
+{
+	text-align:center;
+	background-color:orange;
+	float:right;
+	width:50%;
+	height:70px;
+}
+
+#teacher
+{
+	background-color:red;
+	float:right;
+	width:50%;
+	height:400px;
+}
+#heading
+{
+	height:250px;
+	width:100%;
+}
+#head
+{
+	height:100%;
+	width:100%;
+}
+.btn-2{
+	float: left;
+	margin-top: 10px;
+	
+
+	margin-bottom: 30px;
+	text-align: center;
+	width: 350px;
+	height:auto;
+	border-radius: 40px;
+	font-size: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bolder;
+	cursor: pointer;
+	transition-delay: 0.4sec;
+	
+}
+.btn-2:hover{
+	background-color:#2B2B52;
+	color:ivory;
+	border: azure;
+	border-style: solid;	
+}
+#btn-3{
+	margin-right: 20%;
+	
+	float:right;
+
+}
+#btn-4{
+	
+margin-left: 20%;
+	float: inline-start;
+
+}
